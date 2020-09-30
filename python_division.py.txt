@@ -1,0 +1,9 @@
+from __future__ import division   //(for importing the pyhton 3 version of division)
+
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    c = a//b       //(integer division i.e gives value only in integer form)
+    d = a/b        //(float divison i.e gives value in decimal)
+    print(c)
+    print(d)
